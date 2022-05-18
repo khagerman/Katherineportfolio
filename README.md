@@ -127,7 +127,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://resume.creddle.io/embed/5mnebx4k93u', // if no resume, the button will not show up
 };
 ```
 
@@ -192,12 +192,14 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '', // your linkedin url
+      url: 'https://www.linkedin.com/in/katherinehagerman/', // your linkedin url
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '', // your github url
+      url: 'https://www.github.com/khagerman
+',
+// your github url
     },
   ],
 };
