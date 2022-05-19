@@ -34,11 +34,8 @@
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.7.16",
-    "react-sparkle": "^1.0.9",
-    "react-text-typing": "^0.1.0",
     "react-tilt": "^0.1.4",
-    "txtanime.js": "^1.0.7",
-    "typewriter-effect": "^2.18.2"
+    "txtanime.js": "^1.0.7"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
