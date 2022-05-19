@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `Hi! Nice to meet you! I'm a software engineer and former educator located in Wisconsin.`,
-  paragraphTwo: `I’m excited to share my passion for problem-solving and love for life-long learning that I've developed in my five years as a teacher and my time as Springboard Software Engineering Career Track Fellow.`,
+  paragraphTwo: `I’m excited to share my passion for problem-solving and love for life-long learning that I've developed in my five years as a teacher and my time as Springboard Software Engineering Career Track Fellow. I have a knack for helping others and taking on new challenges with humor and kindness.`,
   paragraphThree: '',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://resume.creddle.io/embed/5mnebx4k93u', // if no resume, the button will not show up
   // https://resume.creddle.io/embed/5mnebx4k93u
 };
 
