@@ -43,7 +43,7 @@ export const projectsData = [
     info: 'Nature Around You is an application that allows users to look up common animals and plants in a given location. Users can filter results by different categories such as, birds, amphibian, mammal, and more. Users can save animals they have seen or interest them to their nature journel.',
     info2:
       'Made with Python, Flask, Javascript, JQuery, Axios, Jinja, Postgres, SQL Alchemy, Flask-Bcrypt, WTForms, HTML, CSS,iNaturalist API, and Mapquest API',
-    url: '',
+    url: 'https://nature-around-you.herokuapp.com/',
     repo: 'https://github.com/khagerman/Nature-Around-You', // if no repo, the button will not show up
   },
   {
