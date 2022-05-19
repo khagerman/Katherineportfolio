@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import Tada from 'react-reveal/tada';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import Text from 'react-text-typing';
+
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;

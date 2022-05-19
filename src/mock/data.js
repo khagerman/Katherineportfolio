@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Katherine Hagerman',
   subtitle: '',
   cta: '',
 };
@@ -19,10 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `Hi! Nice to meet you! I'm a software engineer and former educator located in Wisconsin.`,
-  paragraphTwo: `I have always been a very curious person, who enjoys figuring out how things work.
-   Programming is something that has interested me since I was a child making webpages on Neopets using HTML and CSS. I love figuring out a problem and the “aha” moment when I find a solution. 
-    `,
-  paragraphThree: `I’m excited to share my passion for problem-solving and love for life-long learning that I've developed in my five years as a teacher and my time as Springboard Software Engineering Career Track Fellow.`,
+  paragraphTwo: `I’m excited to share my passion for problem-solving and love for life-long learning that I've developed in my five years as a teacher and my time as Springboard Software Engineering Career Track Fellow.`,
+  paragraphThree: '',
   resume: '', // if no resume, the button will not show up
   // https://resume.creddle.io/embed/5mnebx4k93u
 };
@@ -31,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'nostalgiamachine.png',
+    img: 'nostalgiamachine-1.png',
     title: 'The Nostalgia Machine',
     info: `The Nostalgia Machine is a full-stack, responsive, single-page application with a Node/Express API and a React frontend that allows users to travel through time by sharing and viewing anything that brings intense nostalgia. It's a community where you can reminisce with others and share powerful memories.`,
     info2: 'Built with: PostgresSQL, Node, Express, React, Bcrypt, Formik, Yup, CSS, and HTML',
@@ -50,7 +48,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'joblyjobs.png',
+    img: 'joblyjobs-1.png',
     title: 'Jobly',
     info: 'Jobly is a React frontend and Node.js/Express/Postgres backend application. Users can register, login, apply for jobs, view companies, search, and edit their pofile.',
     info2: 'PostgresSQL, Node, Express, React, Javascript, Bcrypt,CSS, and HTML',
@@ -59,7 +57,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: 'hack.png',
     title: 'Hack or Snooze',
     info: 'Hacker News clone that allows users to create accounts, log in, create articles, mark articles as favorites, and more!',
     info2: 'HTML, CSS, jQuery, Javascript, Object Oriented Programming',
