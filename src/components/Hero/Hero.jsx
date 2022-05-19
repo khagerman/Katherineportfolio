@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import Tada from 'react-reveal/tada';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import TypeIt from 'typeit-react';
+import Text from 'react-text-typing';
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
@@ -40,12 +40,10 @@ const Header = () => {
           <Container>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
               <h1 className="hero-title">
-                {'Hi, my name is'}{' '}
-                <Tada>
-                  <span className="text-color-main">{'Katherine Hagerman'}</span>
-                </Tada>
+                {'Hi, my name is'} <span className="txt text-color-main">Katherine Hagerman</span>
                 <br />
-                {subtitle || '(the Software Engineer formally known as Miss Hagerman)'}
+                {}
+                {subtitle || `I'm a software engineer and former teacher`}
               </h1>
               {/* </TypeIt> */}
             </Fade>
@@ -53,7 +51,7 @@ const Header = () => {
               <p className="hero-cta">
                 <span className="cta-btn cta-btn--hero">
                   <Link to="about" smooth duration={1000}>
-                    {cta || 'Wow she sounds interesting...'}
+                    {cta || 'Sounds interesting...'}
                   </Link>
                 </span>
               </p>
